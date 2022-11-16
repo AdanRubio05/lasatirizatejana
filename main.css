@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: rgba(140,206,241,1.00);
+	background-size: cover;
+}
+
+h1{
+	font-family: postino-std, serif;
+    font-weight: 400;
+    font-style: normal;
+}
