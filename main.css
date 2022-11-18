@@ -47,7 +47,11 @@ h2{
     font-style: normal;
 }
 
-
+p{
+   font-family: ellograph-cf, monospace;
+   font-weight: 300;
+   font-style: normal;	
+}
 
 .flexcontainer-1 {
 	display: flex;
@@ -82,5 +86,9 @@ h2{
 }
 
 .box-2 {
+	flex: 1;
+}
+
+.box-3 {
 	flex: 1;
 }
