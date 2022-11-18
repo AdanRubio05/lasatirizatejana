@@ -6,6 +6,35 @@ body{
 	background-size: cover;
 }
 
+.button{
+	border: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	font-family: scriptorama-markdown-jf, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+a:link {
+	color: rgba(0,0,0,1.00);
+	background-color: rgba(255,185,0,1.00);
+	text-decoration: none;
+}
+
+a:visited {
+	color: rgba(98,52,10,1.00);
+	background-color: rgba(255,185,0,1.00);
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgba(255,255,116,1.00);
+	background-color: rgba(255,185,0,1.00);
+	text-decoration: none;
+}
+
 h1{
 	font-family: postino-std, serif;
     font-weight: 400;
@@ -17,6 +46,8 @@ h2{
     font-weight: 400;
     font-style: normal;
 }
+
+
 
 .flexcontainer-1 {
 	display: flex;
