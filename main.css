@@ -11,3 +11,35 @@ h1{
     font-weight: 400;
     font-style: normal;
 }
+
+.flexcontainer-1 {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin: 0 auto;
+}
+
+.flexcontainer-2{
+	display: flex;
+	flex-wrap: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+.flexcontainer-1 div{
+	border-style: solid;
+	border-width: 4px;
+	border-color: rgba(255,185,0,1.00);
+	padding: 10px;
+}
+
+.flexcontainer-2 div{
+	border-style: solid;
+	border-width: 7px;
+	border-color: rgba(255,185,0,1.00);
+	padding: 10px;
+}
+
+.box-1 {
+	flex: 1;
+}
