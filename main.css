@@ -98,3 +98,11 @@ p{
 .box-3 {
 	flex: 1;
 }
+
+@media (max-width: 1019px){
+	.mobilecontainer{width:90%;}
+	
+	.makeMEStack{
+		flex:100%;
+	}
+}
